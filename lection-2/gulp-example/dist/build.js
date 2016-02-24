@@ -1,0 +1,1 @@
+!function(){console.log("app.js")}()(function(){console.log("module")})()(function(){console.log("controller")})();

@@ -1,0 +1,28 @@
+doctype html
+html(language="en")
+  head
+    title Test Page 
+    link(href="index.css", rel="stylesheet")
+  body
+   div(class="container-fluid") 
+     header(class="navbar navbar-default navbar-static-top") 
+       div(class="navbar-header")
+         div(class="navbar-brand") Test page
+       nav(class="navbar navbar-nav pull-right hidden-xs")
+         li
+           a(href="#") About
+         li
+           a(href="#") Contacts
+     div(class="container") 
+       div(class="row")
+         div(class="col-md-6 col-sm-12") 
+           form(class="form")
+             h3(class="page-header") Login
+             div(class="form-group has-error")
+               input(class="form-control", placeholder="Username")
+             div(class="form-group")
+               input(class="form-control" placeholder="Password", type="password")
+             div(class="form-group")
+               button(type="submit" class="btn btn-danger pull-right") Send 
+         div(class="col-md-6 col-sm-12") right
+           
