@@ -10,6 +10,5 @@ export default class User {
 
   set fullName(fullName) {
     [this.firstName, this.lastName] = fullName.split(' ');
-    console.log(this.firstName);
   }
 }
