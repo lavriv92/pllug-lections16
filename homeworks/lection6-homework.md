@@ -6,3 +6,4 @@
   - List of items (displays of items)
   - Detail of single item (displays details of item )
 - When user click on item in list should redirect to detail
+- Items should hardcoded in array or json
