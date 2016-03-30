@@ -12,6 +12,7 @@ const users = [{
 }];
 
 const App = React.createClass({
+
   render() {
     return (
       <div>
