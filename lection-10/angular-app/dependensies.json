@@ -1,0 +1,5 @@
+{
+  "javacripts": [
+    "./node_modules/angular/angular.js"
+  ]
+}
